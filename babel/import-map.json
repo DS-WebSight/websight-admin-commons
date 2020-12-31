@@ -1,0 +1,22 @@
+{
+  "rootDir": "/apps/",
+  "aliases": {
+    "^@atlaskit/(.*)":  "websight-atlaskit-esm/web-resources/@atlaskit/\\1.js",
+    "react": "websight-atlaskit-esm/web-resources/react.js",
+    "react-dom": "websight-atlaskit-esm/web-resources/react-dom.js",
+    "react-router-dom": "websight-atlaskit-esm/web-resources/react-router-dom.js",
+    "re-resizable": "websight-admin/web-resources/esm/re-resizable.js",
+    "^codemirror(.*).js": "websight-admin/web-resources/esm/codemirror\\1.js",
+    "styled-components": "websight-atlaskit-esm/web-resources/styled-components.js",
+    "websight-fragments-esm": "websight-fragments-esm/web-resources/WebFragments.js",
+    "^websight-rest-atlaskit-client(.*)": "websight-rest-atlaskit-client/web-resources/js\\1.js",
+    "^websight-admin(.*)":  "websight-admin/web-resources\\1.js",
+    "websight-rest-esm-client/RestClient.js": "websight-rest-esm-client/web-resources/RestClient.js"
+  },
+  "devAliases": {
+    "websight": "http://localhost:8080/apps/websight",
+    "websight-atlaskit-esm": "http://localhost:8080/apps/websight-atlaskit-esm",
+    "websight-admin": "http://localhost:8080/apps/websight-admin",
+    "websight-rest-esm-client": "http://localhost:8080/apps/websight-rest-esm-client"
+  }
+}
