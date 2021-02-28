@@ -8,10 +8,10 @@
     <relativePath />
   </parent>
   <artifactId>websight-admin-commons</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <scm>
     <developerConnection>scm:git:ssh://git@192.168.1.146:7999/ws/websight-admin-commons.git</developerConnection>
-    <tag>1.0.0</tag>
+    <tag>1.0.1</tag>
   </scm>
   <dependencies>
     <dependency>
@@ -113,9 +113,6 @@
       <plugin>
         <groupId>biz.aQute.bnd</groupId>
         <artifactId>bnd-baseline-maven-plugin</artifactId>
-        <configuration>
-          <skip>true</skip>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
