@@ -1,0 +1,1 @@
+export const ADMINISTRATION_ROOT_PATH = '/apps/admin';

@@ -1,0 +1,4 @@
+Bundle-Name: Websight Admin Commons
+Bundle-License: GNU AGPLv3
+Sling-Model-Packages: pl.ds.websight.admin.models
+Sling-Bundle-Resources: /apps/websight-admin;propsJSON:=json

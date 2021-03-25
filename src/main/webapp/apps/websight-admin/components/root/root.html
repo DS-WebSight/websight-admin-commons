@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>${properties.title}</title>
+    <link rel="stylesheet " href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined">
+    <script data-sly-use.myModel="pl.ds.websight.admin.models.AemCsrfExtInfoModel"
+            data-sly-test=${myModel.aemCsrfTokenRequired} type="module"
+            src="/apps/websight-rest-aem-csrf-ext/web-resources/CsrfHeaderExtender.js"></script>
+    <script type="module" src="${resource.path}/web-resources/index.js"></script>
+</head>
+<body>
+<div id="app-root"></div>
+</body>
+</html>
